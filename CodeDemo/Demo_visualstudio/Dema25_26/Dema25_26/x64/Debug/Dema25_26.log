@@ -1,2 +1,55 @@
-﻿  Demo.c
-  Dema25_26.vcxproj -> C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\x64\Debug\Dema25_26.exe
+﻿  Convertion.c
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,5): error C2061: erreur de syntaxe : identificateur 'doit'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,5): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,13): error C2061: erreur de syntaxe : identificateur 'trouver'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,13): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,24): error C2061: erreur de syntaxe : identificateur 'cartouche'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,24): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,42): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'dans'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,42): error C2061: erreur de syntaxe : identificateur 'dans'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,56): error C2143: erreur de syntaxe : absence de '{' avant '/'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,56): error C2059: erreur de syntaxe : '/'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(1,84): error C2059: erreur de syntaxe : ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(368,61): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur '_StackCookie'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(368,61): error C2061: erreur de syntaxe : identificateur '_StackCookie'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(368,61): error C2059: erreur de syntaxe : ';'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(368,73): error C2059: erreur de syntaxe : ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(369,77): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur '_StackCookie'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(369,77): error C2061: erreur de syntaxe : identificateur '_StackCookie'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(369,77): error C2059: erreur de syntaxe : ';'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(369,89): error C2059: erreur de syntaxe : ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(373,18): error C2061: erreur de syntaxe : identificateur '__security_cookie'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime.h(373,18): error C2059: erreur de syntaxe : ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(354,10): error C2081: 'uintptr_t' : nom non conforme dans la liste de paramètres formels
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(366,26): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur '_Reserved'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(366,26): error C2081: 'uintptr_t' : nom non conforme dans la liste de paramètres formels
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(366,26): error C2061: erreur de syntaxe : identificateur '_Reserved'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(366,26): error C2059: erreur de syntaxe : ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(366,35): error C2059: erreur de syntaxe : ')'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,5): error C2061: erreur de syntaxe : identificateur 'doit'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,5): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,13): error C2061: erreur de syntaxe : identificateur 'trouver'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,13): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,24): error C2061: erreur de syntaxe : identificateur 'cartouche'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,24): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,42): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'dans'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,42): error C2061: erreur de syntaxe : identificateur 'dans'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,56): error C2143: erreur de syntaxe : absence de '{' avant '/'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,56): error C2059: erreur de syntaxe : '/'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,84): error C2059: erreur de syntaxe : ')'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.c(39): fatal error C1075: '{' : jeton correspondant introuvable
+  Demo.c
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,5): error C2061: erreur de syntaxe : identificateur 'doit'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,5): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,13): error C2061: erreur de syntaxe : identificateur 'trouver'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,13): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,24): error C2061: erreur de syntaxe : identificateur 'cartouche'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,24): error C2059: erreur de syntaxe : ';'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,42): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'dans'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,42): error C2061: erreur de syntaxe : identificateur 'dans'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,56): error C2143: erreur de syntaxe : absence de '{' avant '/'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,56): error C2059: erreur de syntaxe : '/'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Convertion.h(1,84): error C2059: erreur de syntaxe : ')'
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(73,20): warning C4013: 'CalculPerimetreCercle' non défini(e) ; extern retournant int pris par défaut
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(73,20): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  Génération de code en cours...

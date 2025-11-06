@@ -30,7 +30,7 @@ Ici doit ce trouver un cartouche (exemple dans onedrive/support de cours/canevas
 #include <stdio.h>  //-- <> utilisé pour le standard --//
 
 //-- librairie perso --//
-//-- #include "" //-- ""utilisé pour le perso --//
+#include "Convertion.h" 
 
 //-- définition --//
 #define FOIX_2 2 //--défine n'occupe pas de place mémoire --//
@@ -53,14 +53,28 @@ void main()
     const float FOIX_2_2 = 2;*/
 
     //-- déclaration des variables --//
-    //--
+    //-- Entier standard
+        //--- Signé (+/-) 
+    char varChar;   // 1 octet
+    short varShort; // 2 octets
+    int VarInt;     // 4 octets         int = long
+    long long var;  // 8 octets
+
+        //--- Non Signé (+) 
+    unsigned char varChar;   // 1 octet
+    unsigned short varShort; // 2 octets
+    unsigned int VarInt;     // 4 octets         int = long
+    unsigned long long var;  // 8 octets
+       
+    //-- Entier Normalisé --> librairie
     
+
     //--Reel
     float rayon_m = 10;     //_m => mètre
                             //--cast implicite -> entier -> reel --//
-    float perimetre1_m; float perimetre2_m;
+    float perimetre1_m; float perimetre2_m; float perimetre3_m;
 
-    //--une instruction est composé d'opérandes (variable) et d'opérante (signe) --//
+    //--une instruction est composé d'opérandes (variable) et d'opérateur (signe) --//
     //--perimetre_m = 2 * PI_v1 * rayon_m; //-- 2 est vue comme une constante (hardcodage)--//
     //--cast => (type)variable
     perimetre1_m = (float)FOIX_2 * (float)PI * rayon_m; 
@@ -69,7 +83,11 @@ void main()
     perimetre2_m = (float)(FOIX_2 * PI * rayon_m); //-- met la valeur du résultat en float --//
 
     //-- appel de fct
+    // -- calcul perimetre ccercle
+    perimetre3_m = CalculPerimetreCercle(rayon_m);
+
+
     //--> printf
-    printf("%f \n %f", perimetre1_m, perimetre2_m); //-- Pour afficher du texte, utilisé "" pour obtenir le code ascii --//-- "%f",tu recois un parametre de convertion float pour lier la variable a l'affichage --// --\r pour le retour a la ligne(retour chariot)
+    printf("%f \r\n %f \n %f", perimetre1_m, perimetre2_m, perimetre3_m); //-- Pour afficher du texte, utilisé "" pour obtenir le code ascii --//-- "%f",tu recois un parametre de convertion float pour lier la variable a l'affichage --// --\r pour le retour a la ligne(retour chariot)
  
 }
