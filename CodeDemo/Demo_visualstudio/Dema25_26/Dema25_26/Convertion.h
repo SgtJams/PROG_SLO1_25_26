@@ -1,7 +1,3 @@
-Ici doit ce trouver un cartouche(exemple dans onedrive / support de cours / canevas)
-
-* /
-
 //-----------------------------------------------------------------------------------//
 // Nom du projet 		: Demo25_26
 // Nom du fichier 		: convertion.h
@@ -23,8 +19,12 @@ Ici doit ce trouver un cartouche(exemple dans onedrive / support de cours / cane
 #define CONVERTION_H 
 
 //-- declaration definition --//
-float CalculPerimetreCercle(float rayon_m);
+
+//-- declaration type énumération --//
+
+typedef enum { CERCLE, ELLIPSE, CARRE, RECTANGLE, TRIANGLE } e_FORME; // énumération global et non local//
 
 //-- prototype --//
+float CalculPerimetreCercle(float rayon_m);
 
 #endif // CONVERTION_H // Par convention  nomme le nom du fichier

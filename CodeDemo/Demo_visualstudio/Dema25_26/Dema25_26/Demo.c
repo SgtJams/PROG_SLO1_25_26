@@ -28,7 +28,8 @@ Ici doit ce trouver un cartouche (exemple dans onedrive/support de cours/canevas
 //----------------------------------------------------------------------------------//
 //-- librairie standard --//
 #include <stdio.h>  //-- <> utilisé pour le standard --//
-
+#include <stdint.h>
+#include <stdbool.h>
 //-- librairie perso --//
 #include "Convertion.h" 
 
@@ -55,19 +56,46 @@ void main()
     //-- déclaration des variables --//
     //-- Entier standard
         //--- Signé (+/-) 
-    char varChar;   // 1 octet
-    short varShort; // 2 octets
-    int VarInt;     // 4 octets         int = long
-    long long var;  // 8 octets
+    char varI;   // 1 octet
+    short varJ; // 2 octets
+    int VarK;     // 4 octets         int = long
+    long long varL;  // 8 octets
 
         //--- Non Signé (+) 
-    unsigned char varChar;   // 1 octet
-    unsigned short varShort; // 2 octets
-    unsigned int VarInt;     // 4 octets         int = long
-    unsigned long long var;  // 8 octets
+    unsigned char varM;   // 1 octet
+    unsigned short varN; // 2 octets
+    unsigned int VarO;     // 4 octets         int = long
+    unsigned long long varP; // 8 octets
        
     //-- Entier Normalisé --> librairie
-    
+        //--- Signé (+/-)
+    int8_t varA;	// 1 octet
+    int16_t varB;	// 2 octets 
+    int32_t varC;	// 4 octets			int = long 
+    int64_t varD;	// 8 octets 
+
+        //--- Non signé (+) 
+    uint8_t varE;	// 1 octet
+    uint16_t varF;	// 2 octets 
+    uint32_t varG;	// 4 octets			int = long 
+    uint64_t varH;	// 8 octets 
+
+    //-- Type entier type booléen --//
+    bool Vars; // 1 octet
+
+    printf("taille d'un booléen %d [o]", sizeof(bool)); //commande pour connaitre la taile d'un type//
+
+    //-- définition d'un type énumération ->e_MachineEtat -> local --//
+                //ETAT1 = 0,ETAT2 = 20,ETAT3= 21}
+    enum e_MachineEtat { AVANCE, ETAT2RECULE = 20, TOURG, TOURD, ROTATION  };//définition des champs//
+    enum e_MachineEtat robot = AVANCE;
+
+    //-- Utilisation d'un énumération globale -> e_FORME --//
+    e_FORME formeGeo = RECTANGLE;
+
+    //--- Reel 
+    float varQ; 	// 4 octets	
+    double varR;	// 8 octets 
 
     //--Reel
     float rayon_m = 10;     //_m => mètre
@@ -90,4 +118,83 @@ void main()
     //--> printf
     printf("%f \r\n %f \n %f", perimetre1_m, perimetre2_m, perimetre3_m); //-- Pour afficher du texte, utilisé "" pour obtenir le code ascii --//-- "%f",tu recois un parametre de convertion float pour lier la variable a l'affichage --// --\r pour le retour a la ligne(retour chariot)
  
+
+    //-- condition -> expression
+    varI = 'C';
+    varJ = 10;
+    //-- condition prioritaire
+    if (varI > varJ)
+    {
+        //-- condition secondaire
+        if (0);
+        varJ++;     //post incrémentation
+        Vari = varJ;
+        --varJ;     //pré incrémentation
+        varj += 1; //varJ = varJ+1
+    }
+    else if (varI == varJ)
+    {
+
+    }
+    else
+    {
+        varJ--;
+    }
+
+
+    //-- machine d'état --//
+    switch (formgeo)
+    {
+    case Cercle:
+        //-- instruction 1...
+        //-- instruction 2...
+        break;
+
+    case triangle:
+        break;
+
+    case rectangle:     //ici ont va faire les deux case à la suite//
+    case carré:
+       //-- instruction 1...
+       //-- instruction 2...
+        break;
+
+    default:
+        break;
+    }
+        
+    //-- itération --//
+
+    //--> 1 condition -> 2 execution si vrai
+    //-- boucle infinie
+   // while (1){}
+
+    i = 0;
+    j = 100;
+
+    while (i < j) 
+    {
+        i++;
+        j--;
+    }
+
+    //-- au minimum une fois dans la boucle
+    i = 0;
+    j = 100;
+    do
+    {
+        i++;
+        j--;
+    } while (i < j);
+
+        //on réalise un nobre d'itération connue, on pense au compteur//
+        //-- boucle à l'infini --//
+        for (; ; )        //il y a 3 parametre
+        {
+        }
+        //->1) initialisation de plusieur variables 2) condition 3) 
+        for (int i = 0, j = 100;i < j ; i++, j-- )     //il y a 3 paramètres attention int i c'est du C++
+        {
+         }
+
 }

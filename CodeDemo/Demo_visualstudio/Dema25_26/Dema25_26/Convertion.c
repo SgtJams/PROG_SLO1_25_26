@@ -1,6 +1,3 @@
-Ici doit ce trouver un cartouche(exemple dans onedrive / support de cours / canevas)
-
-* /
 
 //-----------------------------------------------------------------------------------//
 // Nom du projet 		: Demo25_26
@@ -47,4 +44,5 @@ float CalculPerimetreCercle(float rayon_m)
     perimetre_m = DEUX_PI * rayon_m;
 
     //-- retour perimetre --//
-    return perimetre_m;
+    return (perimetre_m);
+}
